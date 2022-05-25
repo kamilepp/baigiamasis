@@ -1,12 +1,14 @@
 package tests;
 
 import org.testng.annotations.Test;
-import utils.Driver;
+import pages.Common;
+
 
 public class Demo extends BaseTest {
 
     @Test
     public void openGoogle(){
-        Driver.getDriver().get("https://www.google.com");
+        Common.openLink("https://www.google.com");
+
     }
 }
