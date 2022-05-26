@@ -12,9 +12,4 @@ public class BaseTest {
 
     }
 
-    @AfterMethod
-    public void teardown(){
-        Driver.closeDriver();
-
-    }
 }
