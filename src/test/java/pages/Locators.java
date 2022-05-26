@@ -25,9 +25,10 @@ public class Locators {
 
     public static class AddToCart {
 
-        public static By chooseShoesSize = By.xpath("//*[@id='product_form_6769300176950']/div[1]/div[1]/ul/li[1]/label");
-        public static By chooseQuantity = By.xpath("//*[@id='product_form_6769300176950']/div[1]/div[3]/div/span[2]");
-        public static By addShoesToCartButton = By.xpath("//*[@id='product_form_6769300176950']/button");
+        public static By closeAdButton = By.xpath("//*[@id='shopify-section-popup']/aside/button");
+        public static By chooseShoesSize = By.xpath("//*[@id='product_form_6769300176950']/div[1]/div[1]/ul/li[5]/label");
+        public static By addQuantity = By.xpath("//*[@id='product_form_6769300176950']/div[1]/div[3]/div/span[2]");
+        public static By pressAddToCartButton = By.xpath("//*[@id='product_form_6769300176950']/button");
 
     }
 
