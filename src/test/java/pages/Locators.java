@@ -36,8 +36,32 @@ public class Locators {
 
         public static By pressSearchButton = By.xpath("//*[@id='section-header']/div/div[3]/a[2]");
         public static By inputShoesName = By.xpath("//*[@id='Search']/div/div[1]/form/input[1]");
-
         public static By searchWindowCloses = By.xpath("//*[@id='Search']/div/div[1]/button");
+
+    }
+
+    public static class CustomizeShoes {
+
+        public static By selectCustomizedShoesSize = By.xpath("//*[@id='Dydis']/li[4]/label");
+        public static By clickOnFirstOption = By.xpath("//*[@id='steps']/div[1]/div/span");
+        public static By clickOnFirstOptionsDropDown = By.xpath("//*[@id='materials']/div[1]/select");
+        public static By selectFirstMaterial = By.xpath("//*[@id='materials']/div[1]/select/option[3]");
+        public static By clickBackButton1 = By.xpath("//*[@id='materials']/div[1]/a");
+
+        public static By closeAdButton2 = By.xpath("//*[@id='shopify-section-popup']/aside/button");
+        public static By clickOnSecondOption = By.xpath("//*[@id='steps']/div[2]/div/span");
+        public static By clickOnSecondOptionsDropDown = By.xpath("//*[@id='materials']/div[3]/select");
+        public static By selectSecondMaterial = By.xpath("//*[@id='materials']/div[2]/select/option[3]");
+        public static By clickBackButton2 = By.xpath("//*[@id='materials']/div[2]/a");
+        public static By clickOnThirdOption = By.xpath("//*[@id='steps']/div[3]/div/span");
+        public static By clickOnThirdOptionsDropDown = By.xpath("//*[@id'materials']/div[3]/select");
+        public static By selectThirdMaterial = By.xpath("//*[@id='materials']/div[3]/select/option[2]");
+        public static By clickBackButton3 = By.xpath("//*[@id='materials']/div[3]/a");
+        public static By selectFourthOption = By.xpath("//*[@id='steps']/div[4]/div/span");
+        public static By selectFourthMaterial = By.xpath("//*[@id='materials']/div[4]/div/label[2]");
+        public static By clickBackButton4 = By.xpath("//*[@id='materials']/div[4]/a");
+        public static By addCustomShoesToCart = By.xpath("//*[@id='product_form_6596404805686']/button");
+
 
     }
 }
