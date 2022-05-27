@@ -50,12 +50,12 @@ public class Locators {
 
         public static By closeAdButton2 = By.xpath("//*[@id='shopify-section-popup']/aside/button");
         public static By clickOnSecondOption = By.xpath("//*[@id='steps']/div[2]/div/span");
-        public static By clickOnSecondOptionsDropDown = By.xpath("//*[@id='materials']/div[3]/select");
-        public static By selectSecondMaterial = By.xpath("//*[@id='materials']/div[2]/select/option[3]");
+        public static By clickOnSecondOptionsDropDown = By.xpath("//*[@id='materials']/div[2]/select");
+        public static By selectSecondMaterial = By.xpath("//*[@id='materials']/div[2]/select/option[10]");
         public static By clickBackButton2 = By.xpath("//*[@id='materials']/div[2]/a");
         public static By clickOnThirdOption = By.xpath("//*[@id='steps']/div[3]/div/span");
-        public static By clickOnThirdOptionsDropDown = By.xpath("//*[@id'materials']/div[3]/select");
-        public static By selectThirdMaterial = By.xpath("//*[@id='materials']/div[3]/select/option[2]");
+        public static By clickOnThirdOptionsDropDown = By.xpath("//*[@id='materials']/div[3]/select");
+        public static By selectThirdMaterial = By.xpath("//*[@id='materials']/div[3]/select/option[6]");
         public static By clickBackButton3 = By.xpath("//*[@id='materials']/div[3]/a");
         public static By selectFourthOption = By.xpath("//*[@id='steps']/div[4]/div/span");
         public static By selectFourthMaterial = By.xpath("//*[@id='materials']/div[4]/div/label[2]");

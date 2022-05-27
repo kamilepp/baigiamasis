@@ -1,11 +1,9 @@
 package tests.seleniumEasy;
-
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import tests.BaseTest;
 import utils.Driver;
-
 import java.util.concurrent.TimeUnit;
 
 public class CustomizeShoes extends BaseTest {
@@ -35,12 +33,17 @@ public class CustomizeShoes extends BaseTest {
         TimeUnit.SECONDS.sleep(1);
         pages.seleniumEasy.CustomizeShoes.closeAd();
         pages.seleniumEasy.CustomizeShoes.clickSecondOption();
+
+        TimeUnit.SECONDS.sleep(1);
+        js.executeScript("window.scrollBy(0,050)", "");
         pages.seleniumEasy.CustomizeShoes.clickSecondOptionsDropdown();
         pages.seleniumEasy.CustomizeShoes.clickSecondMaterial();
         pages.seleniumEasy.CustomizeShoes.clickSecondBack();
         TimeUnit.SECONDS.sleep(1);
         pages.seleniumEasy.CustomizeShoes.clickThirdOption();
         TimeUnit.SECONDS.sleep(1);
+
+        js.executeScript("window.scrollBy(0,-100)", "");
         pages.seleniumEasy.CustomizeShoes.clickThirdOptionsDropdown();
         pages.seleniumEasy.CustomizeShoes.clickThirdMaterial();
         pages.seleniumEasy.CustomizeShoes.clickThirdBack();
